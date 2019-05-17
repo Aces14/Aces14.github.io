@@ -1,108 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333; 
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.subnav {
-    float: left;
-    overflow: hidden;
-}
-
-.subnav .subnavbtn {
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: silver;
-}
-
-.subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: Silver;
-    width: 100%;
-    z-index: 1;
-}
-
-.subnav-content a {
-    float: left;
-    color: white;
-    text-decoration: none;
-}
-
-.subnav-content a:hover {
-    background-color: #eee;
-    color: black;
-}
-
-.subnav:hover .subnav-content {
-    display: block;
-}
-</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">Cyber <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="http://10.183.2.3/computerparts.html">Comp. Build</a>
-      <a href="#deliver">0000</a>
-      <a href="#package">0000</a>
-      <a href="#express">0000</a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Github <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="https://github.com/Aces14">My Github</a>
-      <a href="https://github.com/Aces14?tab=repositories">My Repos</a>
-      <a href="#link3">Link 3</a>
-      <a href="#link4">Link 4</a>
-    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+    <button class="btn btn-danger navbar-btn">Button</button>
   </div>
-   <div class="subnav">
-    <button class="subnavbtn">Sports <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="https://www.google.com/search?safe=active&surl=1&q=dallas+cowboys&ie=utf-8&oe=utf-8&client=firefox-b-1-ab#sie=t;/m/02896;6;/m/059yj;mt;fp;1;;">Dallas Cowboys</a>
-      <a href="https://www.google.com/search?surl=1&safe=strict&client=firefox-b-1-ab&ei=buIKXIiDJoms0gLcnruYDg&q=milwaukee+bucks&oq=milwaukee+b&gs_l=psy-ab.1.0.0i131j0l4j0i131j0l4.685169.685327..686973...0.0..0.331.389.1j3-1......0....1..gws-wiz.......0i71j0i67j0i131i67.VvO5iT6DujY#sie=t;/m/0jmbv;3;/m/05jvx;mt;fp;1;;">Milwaukee Bucks</a>
-      <a href="https://www.google.com/search?safe=active&surl=1&q=juventus&ie=utf-8&oe=utf-8&client=firefox-b-1-ab#sie=t;/m/045xx;2;/m/03zv9;mt;fp;1;;">Juventus F.C.</a>
-      <a href="#express">0000</a>
-    </div>
-  </div> 
-  <a href="#contact">Contact</a>
-</div>
+</nav>
 
-</body>
-</html>
 
 <h1 style="background-color:#072079;"><center>-Aces14-</center></h1>
 <h1><center>Welcome!</center></h1>
